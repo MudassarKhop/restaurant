@@ -7,6 +7,7 @@
 		<title>Restaurantly</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link
 			href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Fjalla+One&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display&family=Poppins&family=Raleway:wght@300&display=swap"
 			rel="stylesheet"
@@ -78,15 +79,15 @@
 					</ul>
 					<form class="d-flex">
 						<a href="#book-a-table" class="btn-book animated fadeInUp scrollto"
-							>Book A Table</a
-						>
+							>Book A Table</a>
 					</form>
 				</div>
 			</nav>
 
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-8 text-align-center">
+					<div data-aos="fade-left" data-aos-duration="3000" class="col-lg-8 text-align-center">
+					
 						<h1>
 							Welcome to
 							<span>Restaurantly</span>
@@ -114,8 +115,7 @@
 		>
 			<div class="container">
 				<div class="row2">
-					<div class="col-lg-6 bg-transparent text-light text-start">
-						<h3>
+					<div data-aos="fade-up"  data-aos-duration="3000" class="col-lg-6 bg-transparent text-light text-start">
 							Voluptatem dignissimos provident quasi corporis voluptates sit
 							assumenda.
 						</h3>
@@ -130,14 +130,16 @@
 								<i class="fa-regular fa-circle-check"> </i>
 								Ullamco laboris nisi ut aliquip ex ea commodo consequat
 							</p>
-							<li>
+							<p>
+								<i class="fa-regular fa-circle-check"> </i>
 								Duis aute irure dolor in reprehenderit in voluptate velit.
-							</li>
-							<li>
+							</p>
+							<p>
+								<i class="fa-regular fa-circle-check"> </i>
 								Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
 								aute irure dolor in reprehenderit in voluptate trideta
 								storacalaperda mastiro dolore eu fugiat nulla pariatur.
-							</li>
+							</p>
 						</ul>
 						<p>
 							Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -146,15 +148,32 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est
 							laborum
 						</p>
-					</div>
-					<div class="col-lg-6 bg-transparent text-light">
-						<img class="aboutimg" src="/restaurant-2618315_1920.jpg" alt="" />
+				</div>
+					<div data-aos="zoom-in"  data-aos-duration="3000" class="col-lg-6 bg-transparent text-light">
+							<img class="aboutimg" src="/pexels-edward-eyer-1049626.jpg" alt="pizza" />
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- about section ending -->
+		<section class="whyus min-vh-100">
+			<h2 id="titlewhy">WHY US</h2>
+			<h1 id="subtitle1">Why choose our restaurant</h1>
+			<div class="row3">
+				<div class="container gap-3">
+                    <div class="col-lg-4 bg-dark text-light">2</div>
+					<div class="col-lg-4 bg-dark text-light">4</div>
+					<div class="col-lg-4 bg-dark text-light">6</div>
+				</div>
+					
+			</div>
 
-		<!--script-->
+		</section>
+           <!--script-->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		  </script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
