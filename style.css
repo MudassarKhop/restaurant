@@ -237,3 +237,6 @@ a:hover {
 	padding: 50px;
 	background-color: #0c0b09;
 }
+.row4 {
+	display: flex;
+}
